@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Atmos — Weather Forecast</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="/" class="logo">Atmos</a>
+
+    <span class="header-label">WEATHER FORECAST</span>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="search">
+        <input class="input-city" type="text" placeholder="Type a city...">
+
+        <button class="search-btn" type="button">
+          <img src="./imgs/icons8-pesquisar.svg" alt="Search">
+        </button>
+      </div>
+
+      <div class="weather">
+        <p class="city"></p>
+
+        <div class="temperature">
+          <span class="text-temp"></span>
+          <span class="degree">°C</span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <span>Atmos by <span>ℭoletti</span></span>
+    <span>Weather data by Open-Meteo</span>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
